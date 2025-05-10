@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.29)
+
+project(gitArray)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_BUILD_TYPE Debug)
+
+file(GLOB_RECURSE HEADER_FILES
+	${CMAKE_CURRENT_SOURCE_DIR}/2_gitArray/*.h
+)
+
+file(GLOB_RECURSE SOURCE_FILES
+	${CMAKE_CURRENT_SOURCE_DIR}/2_gitArray/*.cpp
+)
+
+add_executable(${PROJECT_NAME}
+	${SOURCE_FILES}
+	${HEADER_FILES}
+)
