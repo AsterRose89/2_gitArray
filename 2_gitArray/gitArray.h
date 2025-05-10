@@ -25,8 +25,9 @@ public:
     void undo();
     void redo();
 
-    void branch(const std::string& branch_name);
+    void branch(const std::string& old_branch_name, const std::string& new_branch_name);
     void checkout(const std::string& branch_name);
+    std::string getCurrentBranch();
 };
 
 

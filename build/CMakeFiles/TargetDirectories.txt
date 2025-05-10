@@ -1,0 +1,3 @@
+/Users/wjk/SE/homework/fyy/lab2/source_code/build/CMakeFiles/gitArray.dir
+/Users/wjk/SE/homework/fyy/lab2/source_code/build/CMakeFiles/edit_cache.dir
+/Users/wjk/SE/homework/fyy/lab2/source_code/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/wjk/SE/homework/fyy/lab2/source_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o -c /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/gitArray.cpp",
+  "file": "/Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/gitArray.cpp",
+  "output": "CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o"
+},
+{
+  "directory": "/Users/wjk/SE/homework/fyy/lab2/source_code/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o -c /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/main.cpp",
+  "file": "/Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/main.cpp",
+  "output": "CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o"
+}
+]

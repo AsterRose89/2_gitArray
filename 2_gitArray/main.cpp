@@ -41,9 +41,10 @@ int main()
 	}
 
 	else if (command == "branch"){
-		string branch_name;
-		iss >> branch_name;
-		gitArray.branch(branch_name);
+		string new_branch_name, old_branch_name;
+		iss >> new_branch_name;
+		old_branch_name = gitArray.getCurrentBranch();
+		gitArray.branch(old_branch_name, new_branch_name);
 	}
 
 	else if (command == "checkout"){

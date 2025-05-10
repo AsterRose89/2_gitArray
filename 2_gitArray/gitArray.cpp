@@ -15,6 +15,10 @@ GitArray::GitArray(int length) {
     branches[currentBranch] = versionHistory;
 }
 
+string GitArray::getCurrentBranch() {
+    return currentBranch;
+}
+
 string GitArray::toString() {
     string result = "(";
     for (int i = 0; i < data.size(); i++) {
@@ -62,12 +66,15 @@ void GitArray::redo(){
     }   
 }
 
-void GitArray::branch(const std::string& branch_name) {
+void GitArray::branch(const std::string& old_branch_name, const std::string& new_branch_name) {
+    std::vector<std::vector<int>> oldBranchHistory;
     std::vector<std::vector<int>> newBranchHistory;
     for (int i = 0; i <= currentVersionIndex; ++i) {
+        oldBranchHistory.push_back(versionHistory[i]);
         newBranchHistory.push_back(versionHistory[i]);
     }
-    branches[branch_name] = newBranchHistory;
+    branches[old_branch_name] = oldBranchHistory;
+    branches[new_branch_name] = newBranchHistory;
 }
 
 void GitArray::checkout(const std::string& branch_name) {
