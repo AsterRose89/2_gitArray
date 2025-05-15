@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wjk/SE/homework/fyy/lab2/source_code
+CMAKE_SOURCE_DIR = /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wjk/SE/homework/fyy/lab2/source_code/build
+CMAKE_BINARY_DIR = /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gitArray.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/gitArray.dir/progress.make
 include CMakeFiles/gitArray.dir/flags.make
 
 CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o: CMakeFiles/gitArray.dir/flags.make
-CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o: /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/gitArray.cpp
+CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o: /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/gitArray.cpp
 CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o: CMakeFiles/gitArray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/SE/homework/fyy/lab2/source_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o -MF CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o.d -o CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o -c /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/gitArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o -MF CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o.d -o CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o -c /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/gitArray.cpp
 
 CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/gitArray.cpp > CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/gitArray.cpp > CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.i
 
 CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/gitArray.cpp -o CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/gitArray.cpp -o CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.s
 
 CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o: CMakeFiles/gitArray.dir/flags.make
-CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o: /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/main.cpp
+CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o: /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/main.cpp
 CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o: CMakeFiles/gitArray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/SE/homework/fyy/lab2/source_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o -MF CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o.d -o CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o -c /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o -MF CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o.d -o CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o -c /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/main.cpp
 
 CMakeFiles/gitArray.dir/2_gitArray/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gitArray.dir/2_gitArray/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/main.cpp > CMakeFiles/gitArray.dir/2_gitArray/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/main.cpp > CMakeFiles/gitArray.dir/2_gitArray/main.cpp.i
 
 CMakeFiles/gitArray.dir/2_gitArray/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gitArray.dir/2_gitArray/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/main.cpp -o CMakeFiles/gitArray.dir/2_gitArray/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/main.cpp -o CMakeFiles/gitArray.dir/2_gitArray/main.cpp.s
 
 # Object files for target gitArray
 gitArray_OBJECTS = \
@@ -109,7 +109,7 @@ gitArray: CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o
 gitArray: CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o
 gitArray: CMakeFiles/gitArray.dir/build.make
 gitArray: CMakeFiles/gitArray.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wjk/SE/homework/fyy/lab2/source_code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable gitArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable gitArray"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gitArray.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/gitArray.dir/clean:
 .PHONY : CMakeFiles/gitArray.dir/clean
 
 CMakeFiles/gitArray.dir/depend:
-	cd /Users/wjk/SE/homework/fyy/lab2/source_code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wjk/SE/homework/fyy/lab2/source_code /Users/wjk/SE/homework/fyy/lab2/source_code /Users/wjk/SE/homework/fyy/lab2/source_code/build /Users/wjk/SE/homework/fyy/lab2/source_code/build /Users/wjk/SE/homework/fyy/lab2/source_code/build/CMakeFiles/gitArray.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/build /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/build /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/build/CMakeFiles/gitArray.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gitArray.dir/depend
 

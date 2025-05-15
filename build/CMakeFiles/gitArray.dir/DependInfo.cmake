@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/gitArray.cpp" "CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o" "gcc" "CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o.d"
-  "/Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/main.cpp" "CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o" "gcc" "CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o.d"
+  "/Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/gitArray.cpp" "CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o" "gcc" "CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o.d"
+  "/Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/main.cpp" "CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o" "gcc" "CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
