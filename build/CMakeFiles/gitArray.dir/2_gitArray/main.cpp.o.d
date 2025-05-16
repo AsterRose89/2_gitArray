@@ -1,5 +1,5 @@
 CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o: \
-  /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/main.cpp \
+  /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -822,7 +822,7 @@ CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg \
-  /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/gitArray.h \
+  /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/gitArray.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__format/formatter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__format/format_fwd.h \

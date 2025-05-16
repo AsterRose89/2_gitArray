@@ -78,6 +78,9 @@ void GitArray::branch(const std::string& old_branch_name, const std::string& new
 }
 
 void GitArray::checkout(const std::string& branch_name) {
+    for (const auto& version: versionHistory) {
+        branches[currentBranch].push_back(version);
+    }
     if (branches.find(branch_name) != branches.end()) {
         currentBranch = branch_name;
         versionHistory = branches[branch_name]; 

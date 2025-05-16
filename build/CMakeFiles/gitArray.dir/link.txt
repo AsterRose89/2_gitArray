@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o -o gitArray
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o CMakeFiles/gitArray.dir/2_gitArray/main.cpp.o -o gitArray

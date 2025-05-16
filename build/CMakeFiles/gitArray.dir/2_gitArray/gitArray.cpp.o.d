@@ -1,6 +1,6 @@
 CMakeFiles/gitArray.dir/2_gitArray/gitArray.cpp.o: \
-  /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/gitArray.cpp \
-  /Users/wjk/SE/homework/fyy/lab2/source_code/2_gitArray/gitArray.h \
+  /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/gitArray.cpp \
+  /Users/wjk/SE/homework/fyy/lab2/homework-fyy-2_gitArray/2_gitArray/gitArray.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/comp.h \
